@@ -86,3 +86,134 @@ footer{
  width: ;
  Height: ;
 }
+
+
+
+
+# Menu NavBar 
+
+Html 
+
+<nav class="navbar">
+
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">Login</a></li>
+          <li><a href="">Sign up</a></li>
+          <li><a href="">footer</a></li>
+        </ul>
+
+      </nav>
+
+
+Css 
+
+.navbar ul{
+  list-style-type: none;
+  background-color: gray;
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+}
+
+.navbar a{
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  text-align: center;
+}
+
+.navbar a:hover{
+  background-color: lightblue;
+}
+
+.navbar li{
+  float: left;
+}
+
+# Media Queries 
+
+/* Telas até 575px */
+@media screen and (max-width: 575.98px) {
+  /* Seu CSS aqui */
+}
+
+
+
+/* Sintaxe Tradicional */
+@media screen and (min-width: 576px) {
+  /* Seu CSS aqui */
+}
+
+/* Sintaxe Moderna */
+@media (width >= 576px) {
+  /* Seu CSS aqui */
+}
+
+
+/* Sintaxe Tradicional */
+@media screen and (min-width: 768px) {
+  /* Seu CSS aqui */
+}
+
+/* Sintaxe Moderna */
+@media (width >= 768px) {
+  /* Seu CSS aqui */
+}
+
+
+/* Sintaxe Tradicional */
+@media screen and (min-width: 992px) {
+  /* Seu CSS aqui */
+}
+
+/* Sintaxe Moderna */
+@media (width >= 992px) {
+  /* Seu CSS aqui */
+}
+
+
+/* Sintaxe Tradicional */
+@media screen and (min-width: 1200px) {
+  /* Seu CSS aqui */
+}
+
+/* Sintaxe Moderna */
+@media (width >= 1200px) {
+  /* Seu CSS aqui */
+}
+
+
+
+
+
+@media screen and (max-width: 575.98px) {
+  
+}
+
+
+
+
+@media screen and (min-width: 576px) {
+  
+}
+
+
+
+
+@media screen and (min-width: 768px) {
+  
+}
+
+
+@media screen and (min-width: 992px) {
+  /* Seu CSS aqui */
+}
+
+
+
+
+@media screen and (min-width: 1200px) {
+ 
+}
