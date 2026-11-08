@@ -217,3 +217,70 @@ Css
 @media screen and (min-width: 1200px) {
  
 }
+
+
+# Cards 
+
+<div class="cardContainer">
+          <div class="card">
+
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPyt9o2vV7qbUzPXo1bet8BsmumaYMNWALTk29xdsx5A&s=10">
+
+            <div class="cardContent">
+
+              <h3>Card Title</h3>
+              
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus harum aliquid ipsam</p>
+
+              <a href="" class="btn">Read More</a>
+
+            </div>
+          </div>
+
+         </div>
+
+  .cardContainer{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 100px;
+}
+
+.card{
+  width: 325px;
+  background-color: aqua;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  margin: 20px;
+}
+
+.card img{
+  width:100%;
+  height: auto;
+}
+
+.cardContent{
+  padding: 16px;
+}
+
+.cardContent h3{
+  font-size: 28px;
+  margin-bottom: 8px;
+}
+
+.cardContent p{
+  color: #666;
+  font-size: 15px;
+  line-height: 1.3;
+}
+
+.cardContent .btn{
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #333;
+  text-decoration: none;
+  border-radius: 4px;
+  margin-top: 16px;
+  color: #fff;
+}
