@@ -284,3 +284,44 @@ Css
   margin-top: 16px;
   color: #fff;
 }
+
+
+
+# evento onclick js
+
+
+          <button onclick="eventoClick()">Clique Aqui</button>
+
+         
+          
+
+        </section>
+      </main>
+      
+      <footer>
+        
+      </footer>
+      <script src="script.js"></script>
+    </div>
+
+function eventoClick(){
+    alert('Acionou um evento de Click');
+}
+
+
+# mudar cor com onclick
+
+function eventoClick(){
+    alert('Acionou um evento de Click');
+    document.body.style.backgroundColor = "yellow";
+}
+
+# Evento de Click Duplo
+
+ <button ondblclick="eventodblClick()">Clique Aqui</button>
+
+ function eventodblClick() {
+    alert('Acionou um evento de Click Duplo');
+    document.body.style.backgroundColor = "green";
+}
+    
